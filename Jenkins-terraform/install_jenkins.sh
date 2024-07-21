@@ -12,7 +12,7 @@ sudo apt-get install jenkins -y
 sudo systemctl start jenkins
 sudo systemctl status jenkins
 
-#install docker, sonar in docker
+#install docker, sonarqube in docker
 sudo apt-get update
 sudo apt-get install docker.io -y
 sudo usermod -aG docker ubuntu  
